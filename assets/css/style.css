@@ -24,17 +24,11 @@ figure img {
 main {
   padding: 60px 30px;
 }
-/* .wrapper {
-  padding: 0 0 60px 0;
-}  */
 .fd__heading {
   width: 90px;
   height: 40px;
   padding: 10px;
 }
-/* .icon__heading {
-  max-width: 300px;
-}  */
 .heading__hd1 {
   height: 4px;
 }
@@ -103,7 +97,6 @@ main {
 .feature__endwrapper2 {
   padding: 0 0 60px 0 !important;
 }
-
 .featuredprod__userwrapper {
   width: 275px;
   height: 20px;
@@ -231,35 +224,30 @@ main {
 
 /* overwriting bootstrap */
 @media (min-width: 1200px) {
-.carousel-item img {
+  .carousel-item img {
     height: 550px;
   }
 }
-
 @media (max-width: 450px) {
-.carousel-item img {
+  .carousel-item img {
     height: 220px;
   }
 }
-
 @media (min-width: 450px) {
-.carousel-caption {
+  .carousel-caption {
     height: 330px;
   }
 }
-
 @media (max-width: 450px) {
 .carousel-caption {
     height: 150px;
   }
 }
-
 @media (max-width:  450px) {
-  h1, h5, p {
-      font-size: 10px;
-    }
-  } 
-
+  h1, h5, p, .footer__ullenght1, .footer__ullenght2, .footer__ullenght3, .footer__wrapper2 {
+    font-size: 10px;
+  }
+} 
 @media (max-width: 450px) {
   .fd__heading {
     width: 50px;
@@ -270,29 +258,41 @@ main {
     width: 90px;
   }
 }
-
 @media (max-width: 450px) {
-.blog__wrap {
+  .blog__wrap {
     height: 300px;
   }
 } 
-
 @media (max-width:  576px) {
   .featuredprod__wrapper2 {
-      height: 200px;
-      margin: 0 0 20px;
-    }
-  } 
-
-  @media (max-width: 450px) {
-    .fd__heading {
-      width: 50px;
-    }
+    height: 200px;
+    margin: 0 0 20px;
   }
-  @media (min-width: 450px) {
-    .fd__heading {
-      width: 90px;
-    }
+} 
+@media (max-width: 450px) {
+ .fd__heading {
+    width: 50px;
   }
-  
+}
+@media (min-width: 450px) {
+   .fd__heading {
+    width: 90px;
+  }
+}
+@media (max-width: 450px) {
+  .carousel-caption {
+    height: 150px;
+  }
+}
+@media (max-width: 450) {
+  .footer__colul {
+    height: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .footer__ullenght4 {
+    width: 200px;
+    font-size: 10px;
+  }
+}
   /* overwriting bootstrap */
