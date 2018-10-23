@@ -1,0 +1,255 @@
+/* header */
+figure img {
+    width: 100%;
+    height: 100%;
+}
+.textcolor__carouselh1 {
+    color: rgb(126, 70, 39);
+}
+.carousel__capthd {
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+.carousel__indtrs {
+    cursor: pointer;
+    max-height: 10px;
+    max-width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+  }
+/* header */
+
+
+/* main: body */
+main {
+    padding: 60px;
+}
+.wrapper {
+    padding: 0 0 60px 0;
+}
+.fd__heading {
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+}
+.icon__heading {
+    width: 300px;
+}
+.heading__hd1 {
+    height: 4px;
+}
+.heading__hd2 {
+    height: 60px;
+}
+.hd__letrsp {
+    letter-spacing: 2px;
+}
+/* main: body*/
+
+
+/* first main section */
+.first__wrapper {
+    padding: 0 0 60px;
+}
+.card__wrapper1 {
+    max-height: 250px;
+    width: 500px;
+    padding: 0;
+}
+.card__wrapper1 img {
+    height: 100%; 
+    width: 100%;   
+}
+.card__img1 {
+    height: 260px;
+}
+.card__col1img1 {
+    width: 570px;
+    padding: 0 10px 10px 0;
+}
+.card__col1img2 {
+    width: 285px;
+    padding: 0 10px 10px 0;
+}
+.card__col1img3 {
+    width: 285px;
+    padding: 0 0 10px 0;
+}
+.card__col2img1 {
+    width: 760px;
+    padding: 0 10px 10px 0;
+}
+.card__col2img2 {
+    width: 380px;
+    padding: 0 0 10px 0;
+}
+/* first main section */
+
+
+/* second main section: featured products */
+.second__wrapper {
+    padding: 0 0 60px;
+}
+.featuredprod__wrapper2 {
+    width: 278px;
+	  height: 250px;
+    padding: 0 10px 60px 0;
+    margin: 0;
+}
+.feature__endwrapper2 {
+    padding: 0 0 60px 0;
+}
+.featuredprod__wrapper2 img{
+    width: 100%;
+		height: 100%;
+}
+.featuredprod__userwrapper {
+    width: 275px;
+    height: 20px;;
+}
+.featuredprod__text {
+    margin: 0;
+    padding: 10px 0;
+}
+.featuredprod__userresponse {
+    width: 275px;
+    height: 20px;
+    padding: 0 0 20px;
+}
+/* second main section: featured products */
+
+/* third main section: latest from blog */
+.third__wrapper {
+	  padding: 0 0 60px;
+}
+.blog__text {
+    padding: 20px 0 0;
+}
+.blog__wrap {
+	  width: 278px;
+  	height: 390px;
+  	padding: 0 10px 10px 0;
+}
+.blog__endwrap {
+    padding: 0 0 10px 0;
+}
+.blog__imgtext {
+    width: 100%;
+    padding: 0;
+}
+.longline {
+    width: 100%;
+		height: 20px; 
+}
+/* third main section: latest from blog */
+
+
+/* fourth main section: our brands */
+.card__wrapper4 {
+    padding: 0 10px 0 0;
+}
+.card__endwrapper {
+    padding: 0;
+}
+/* fourth main section: our brands */
+
+
+/* footer */
+.footer__wrapper1 {
+    padding: 60px 60px 0;
+}
+.footer__wrapper2 {
+    padding:  10px 120px 20px;  
+}
+.footer__icon1 {
+    padding: 10px;
+}
+.footer__fontawesome {
+    margin-right: 20px;
+}
+.footer_secondsection {
+    padding: 60px;
+}
+.footer__ul1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 0 20px 0;
+}
+.footer__colul {
+    height: 260px;
+    padding: 0;
+}
+.footer__ul2 {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+.footer__ul3 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+.footer__heading {
+    margin: 30px;
+}
+.footer__ullenght1 {
+   width: 280px;
+}
+.footer__ullenght2 {
+    width: 190px;
+  }
+.footer__ullenght3 {
+    width: 210px;
+  }
+.footer__ullenght4 {
+    width: 280px;
+}
+.footer_searchinput { 
+    height: 34px;
+}
+.footer_searchbg {
+    background-color: rgb(126, 70, 39);
+}
+.footer__navlink {
+    list-style-type: none;
+    padding-right: 20px;
+}
+.footer__mediaiconsi {
+    height: 20px;
+}
+.footer__mediaicons {
+    height: 30px;
+    width: 30px;
+}
+/* footer */
+
+/* overwriting bootstrap */
+@media (min-width: 1200px) {
+  .carousel-item img {
+      height: 550px;
+  }
+}
+@media (max-width: 450px) {
+  .carousel-item img {
+      height: 220px;
+  }
+}
+@media (min-width: 576px) {
+  .carousel-caption {
+      height: 400px;
+      padding: 60px 0;
+  }
+}
+@media (max-width: 575px) {
+  .carousel-caption {
+      height: 220px;
+  }
+}
+
+@media (max-width: 575px) {
+  .second__wrapper {
+      max-height: 550px;
+  }
+}
+/* overwriting bootstrap */

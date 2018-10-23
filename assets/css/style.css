@@ -7,8 +7,8 @@ figure img {
   color: rgb(126, 70, 39);
 }
 .carousel__capthd {
-  margin: 0;
   padding: 0 0 30px 0;
+  margin: 0;
 }
 .carousel__indtrs {
   cursor: pointer;
@@ -22,19 +22,19 @@ figure img {
 
 /* main: body */
 main {
-  padding: 60px;
+  padding: 60px 30px;
 }
-.wrapper {
+/* .wrapper {
   padding: 0 0 60px 0;
-}
+}  */
 .fd__heading {
   width: 90px;
   height: 40px;
   padding: 10px;
 }
-.icon__heading {
-  width: 300px;
-}
+/* .icon__heading {
+  max-width: 300px;
+}  */
 .heading__hd1 {
   height: 4px;
 }
@@ -92,24 +92,28 @@ main {
 }
 .featuredprod__wrapper2 {
   width: 278px;
-  height: 250px;
+  max-height: 250px;
   padding: 0 10px 60px 0;
-  margin: 0;
-}
-.feature__endwrapper2 {
-  padding: 0 0 60px 0;
+  margin: 0 0 20px;
 }
 .featuredprod__wrapper2 img{
   width: 100%;
   height: 100%;
 }
+.feature__endwrapper2 {
+  padding: 0 0 60px 0 !important;
+}
+
 .featuredprod__userwrapper {
   width: 275px;
-  height: 20px;;
+  height: 20px;
 }
 .featuredprod__text {
-  margin: 0;
   padding: 10px 0;
+  margin: 0;
+}
+.featuredprod__user {
+  padding: 0 0 40px;
 }
 .featuredprod__userresponse {
   width: 275px;
@@ -129,9 +133,10 @@ main {
   width: 278px;
   height: 390px;
   padding: 0 10px 10px 0;
+  margin: 0 0 20px;
 }
 .blog__endwrap {
-  padding: 0 0 10px 0;
+  padding: 0 0 10px 0 !important;
 }
 .blog__imgtext {
   width: 100%;
@@ -228,28 +233,66 @@ main {
 @media (min-width: 1200px) {
 .carousel-item img {
     height: 550px;
+  }
 }
-}
+
 @media (max-width: 450px) {
 .carousel-item img {
     height: 220px;
-}
-}
-@media (min-width: 576px) {
-.carousel-caption {
-    height: 400px;
-    padding: 60px 0;
-}
-}
-@media (max-width: 575px) {
-.carousel-caption {
-    height: 220px;
-}
+  }
 }
 
-@media (max-width: 575px) {
-.second__wrapper {
-    max-height: 550px;
+@media (min-width: 450px) {
+.carousel-caption {
+    height: 330px;
+  }
 }
+
+@media (max-width: 450px) {
+.carousel-caption {
+    height: 150px;
+  }
 }
-/* overwriting bootstrap */
+
+@media (max-width:  450px) {
+  h1, h5, p {
+      font-size: 10px;
+    }
+  } 
+
+@media (max-width: 450px) {
+  .fd__heading {
+    width: 50px;
+  }
+}
+@media (min-width: 450px) {
+  .fd__heading {
+    width: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+.blog__wrap {
+    height: 300px;
+  }
+} 
+
+@media (max-width:  576px) {
+  .featuredprod__wrapper2 {
+      height: 200px;
+      margin: 0 0 20px;
+    }
+  } 
+
+  @media (max-width: 450px) {
+    .fd__heading {
+      width: 50px;
+    }
+  }
+  @media (min-width: 450px) {
+    .fd__heading {
+      width: 90px;
+    }
+  }
+  
+  /* overwriting bootstrap */
