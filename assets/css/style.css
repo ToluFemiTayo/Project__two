@@ -295,4 +295,14 @@ main {
     font-size: 10px;
   }
 }
-  /* overwriting bootstrap */
+@media (max-width: 450px) {
+  .footer__wrapper1 {
+  padding: 60px 30px 0;
+  }
+}
+@media (max-width: 450px) {
+  .footer__wrapper2 {
+    padding: 10px 60px 20px;  
+  }
+}
+/* overwriting bootstrap */
